@@ -1,0 +1,16 @@
+# Ignore node_modules (they will be installed inside the container)
+node_modules
+
+# Ignore local environment variables (pass them via docker run or docker-compose)
+.env
+
+# Ignore logs
+npm-debug.log*
+*.log
+
+# Ignore Git
+.git
+.gitignore
+
+# Ignore local test scripts
+test-api.js
